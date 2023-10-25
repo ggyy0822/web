@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>表格樣式控制</h1>
+    <table>
+        <tr>
+            <th>標題 1</th>
+            <th>標題 2</th>
+            <th>標題 3</th>
+        </tr>
+        <tr>
+            <td>行 1, 單元格 1</td>
+            <td>行 1, 單元格 2</td>
+            <td>行 1, 單元格 3</td>
+        </tr>
+        <tr>
+            <td>行 2, 單元格 1</td>
+            <td>行 2, 單元格 2</td>
+            <td>行 2, 單元格 3</td>
+        </tr>
+        <tr>
+            <td>行 3, 單元格 1</td>
+            <td>行 3, 單元格 2</td>
+            <td>行 3, 單元格 3</td>
+        </tr>
+    </table>
+    <div>
+        <button onclick="setTableWidth(200)">設定寬度為 200px</button>
+        <button onclick="setTableWidth(500)">設定寬度為 500px</button>
+    </div>
+    <div>
+        <button onclick="setTableBorder(2)">設定邊框線寬度為 2px</button>
+        <button onclick="setTableBorder(4)">設定邊框線寬度為 4px</button>
+        <button onclick="setCellSpacing(10)">設定單元格間距為 10px</button>
+    </div>
+    <div>
+        <button onclick="setTableBackgroundColor(1)">設定背景顏色 1</button>
+        <button onclick="setTableBackgroundColor(2)">設定背景顏色 2</button>
+        <button onclick="setTableBackgroundColor(3)">設定背景顏色 3</button>
+        <button onclick="setTableBackgroundColor(4)">設定背景顏色 4</button>
+    </div>
+    <button onclick="resetTableStyle()">重設樣式</button>
+    <script src="/lab4/script.js"></script>
+</body>
+</html>
